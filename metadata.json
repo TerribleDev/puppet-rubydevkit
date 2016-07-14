@@ -13,6 +13,9 @@
     },
     {
         "name": "chocolatey-chocolatey"
+    },
+    {
+        "name": "puppet-download_file"
     }
   ],
   "operatingsystem_support":[

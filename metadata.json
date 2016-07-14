@@ -1,0 +1,24 @@
+{
+  "name": "terribledev-rubydevkit",
+  "version": "0.1.0",
+  "author": "terribledev",
+  "summary": "installs rubydevkit into windows",
+  "license": "MIT",
+  "source": "https://github.com/TerribleDev/puppet-rubydevkit.git",
+  "project_page": "https://github.com/TerribleDev/puppet-rubydevkit",
+  "issues_url": "https://github.com/TerribleDev/puppet-rubydevkit/issues",
+  "dependencies": [
+    {
+        "name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"
+    },
+    {
+        "name": "chocolatey-chocolatey"
+    }
+  ],
+  "operatingsystem_support":[
+      {
+          "operatingsystem": "Windows"
+      }
+  ]
+}
+
